@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+    
+<html lang="es">
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Challenge ONE 2</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+
+        <div id="cajaLogo">
+            <h1><img src="imagenes/Vector.png" class="logo"></h1>
+        </div>   
+        
+        <div class="canvas" id="zonaCanvas"> 
+            <canvas id="horca" width="1200" height="860"></canvas>
+        </div>
+
+        <div id="input-ingresarPalabra">
+            <input  autofocus type="text" id="input-agregarPalabra" placeholder="Ingrese una palabra" autocapitalize="characters">
+        </div>
+
+        <div id="botones-iniciarJuego">
+            <a href="#canvasMunieco"><input type="submit" id="boton-inicioJuego" value="Iniciar Juego" onclick="iniciarJuego()"></a>
+            <a><input type="submit" id="boton-agregarPalabra" value="Agregar Palabra" onclick="agregarPalabra()"></a>
+        </div>
+
+        <div id="botones-partida">
+            <a href="#canvasMunieco"><input type="submit" id="boton-nuevoJuego" value="Nuevo Juego" onclick="nuevoJuego()"></a>
+            <a><input type="submit" id="boton-desistir" value="Desistir" onclick="desistir()"></a>
+        </div>
+
+        <div id="botones-agregarPalabra">
+            <p id="aclaracion">Max. 8 Digitos</p>
+            <a href="#canvasMunieco"><input type="submit" id="boton-guardarEmpezar" value="Guardar y Empezar" onclick="guardarEmpezar()"></a>
+            <a href="index.html"><input type="submit" id="boton-cancelar" value="Cancelar" onclick="desistir()"></a>
+        </div>
+
+        <script type="text/javascript" src="script.js"></script>
+        <script type="text/javascript" src="canvas.js"></script>
+
+    </body> 
+
+</html>

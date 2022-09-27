@@ -1,0 +1,176 @@
+
+body {
+    background: #FFFFFF;
+    font-family: 'Inter', sans-serif;
+}
+
+.caja-logo{ 
+    width: 1em;
+    height: 0;
+    margin-left: 3%;
+    margin-top: 3%;
+    text-align: center;
+}
+
+.logo{    
+    float: inherit;
+}
+
+/*Input para ingresar el texto*/
+
+.caja-encriptar{
+    float: left;
+    width: 60%;
+    height: 60%;
+}
+
+#input-texto{
+    margin: 15% 0 0 20%;
+    font-size: 2em;
+    width: 60%;
+    height: 60%;
+    color: #0A3871;
+    background: none;
+    border: none;
+    outline: none;
+    resize:none;
+}
+
+.input-texto:hover{
+    text-decoration: underline;
+}
+
+/*Recuadro de costado*/
+
+.caja-desencriptar{
+    width: 28%;
+    height: 90%;
+    float: right;
+    background: #FFFFFF;
+    margin: 0 2% 2% 2%;
+    border-radius: 2em;
+    text-align: center;
+    box-shadow: 0 1.5em 2em -0.5em rgba(0, 0, 0, 0.8);
+}
+
+#llave{
+    width: 90%;
+    height: auto;
+    margin-top: 40%;
+}
+
+h1{ 
+    width: 80%;
+    height: auto;
+    margin-top: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1.5em;
+    font-weight: bold;
+    Color: #FFFFFF;
+    line-height: 2em;
+    font-family: 'Inter', sans-serif;
+}
+
+#cajaResultado{
+    width: 80%;
+    height: auto;
+    margin-top: 2%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40%;
+    font-size: 1em;
+    line-height: 1.5em;
+    background-color: #FFFFFF;
+    Color: #000000;
+    text-align: center;
+    border: none;
+    outline: none;
+    resize: none;
+}
+
+/*Parte de Botones*/
+
+.botones{
+    line-height: 1.3em;
+    margin-left: 10%; 
+    margin-top: 1%; 
+}
+
+.condicion{
+    font-size: 0.7em; 
+    margin-top: 38%;
+    margin-left: 10%;
+}
+
+#boton-encriptar{
+    background: #0A3871;
+    color: #FFFFFF;
+    width: 20.5em;
+    height: 4.2em;
+    font-size: 1em;
+    border-radius: 1em;
+    border: 1% solid #0A3871;
+}
+
+#boton-encriptar:hover{
+    background: #FFFFFF;
+    color: #000000;
+}
+
+#boton-desencriptar{
+    background: #0A3871;
+    color: #FFFFFF;
+    width: 20.5em;
+    height: 4.2em;
+    font-size: 1em;
+    margin-left: 3%;
+    border-radius: 1em;
+    border: 1% solid #0A3871;
+}
+
+#boton-desencriptar:hover{
+    background: #FFFFFF;
+    color: #000000;
+}
+
+
+#boton-copiar{
+    background: #FFFFFF;
+    color: #0A3871;
+    width: 90%;
+    height: 4.2em;
+    margin: 5%;
+    border-radius: 1em;  
+    border: 1% solid #0A3871;
+    display: none;
+}
+
+/*diseño tablet*/
+
+@media screen and (max-width: 768px){
+   .llave{
+          display: none;
+    }
+
+    .logo{
+        position: static;
+    }
+
+}
+
+@media screen and (max-width: 375px) {
+    .llave{
+        display: none;
+    }
+}
+
+/*   .caja-desencriptar{
+/*       vertical-align: bottom;
+/*   }
+/*
+/*//*media screen and (max-width: 375px){
+/*   #boton-encriptar, #boton-desencriptar{
+/*       display: block;
+/*   }
+/*

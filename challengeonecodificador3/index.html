@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+    
+<html lang="es">
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Challenge ONE 1</title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+            <div class="caja-logo">
+                <h1><img src="imagenes/Vector.png" class="logo"></h1>
+            </div>       
+
+            <div class="caja-encriptar">                    
+                <textarea name="textarea" rows="5" cols="5" id="input-texto" class="input-texto">Ingrese el texto aqui</textarea>
+            </div>
+
+            <div class="caja-desencriptar">
+                <img src="imagenes/llave.jpg" id="llave">
+                <h1 id="texto">Ningún texto fue encontrado</h1>
+                <textarea name="name" id="cajaResultado">Ingresa el texto que deseas encriptar o desencriptar.</textarea>
+                <button type="button" name="boton-copiar" id="boton-copiar">Copiar</button>
+            </div>  
+
+            <p class="condicion">&excl; Solo letras minúsculas y sin acentos</p>
+            
+            <div class="botones">                
+                <button type="button" id="boton-encriptar">Encriptar</button>
+                <button type="button" id="boton-desencriptar">Desencriptar</button>
+            </div>
+
+            <script type="text/javascript" src="script.js"></script>
+    </body>
+</html>
