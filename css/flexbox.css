@@ -1,0 +1,217 @@
+
+.headerPrincipal .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.headerPrincipal-nav, .headerPrincipal-nav-mail {
+    display: flex;
+}
+
+.fotoPerfil {
+    flex-shrink: 0;
+}
+
+.perfil-content {
+    width: 75%;
+}
+
+.perfil-list {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.skills-content, .hobbies-content {
+    justify-content: center;
+    display: flex;
+}
+
+.skills-items, .hobbies-items {
+    display: flex;
+}
+
+.formacionAcademica .container {
+    display: flex;
+}
+
+.formacionAcademica .container {
+    display: flex;
+    justify-content: center;
+}
+
+.formacion-content {
+    display: flex;
+}
+
+.experienciaLaboral .container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1em;
+}
+
+.experiencia-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+} 
+
+.experiencia-botones {
+    display: block;
+}
+
+.contacto .container {
+    width: 100%;
+    display: flex;
+}
+
+form label, form input {
+    display: block;
+}
+
+
+@media (max-width:768px) {
+
+    .headerPrincipal-nav {
+        display: none;
+    }
+
+    .headerPrincipal-titulo {
+        font-size: 1.1em;
+    }
+
+    .skills-title, .hobbies-title, .formacion-title, .experiencia-title-principal {
+        font-size: 1.3em;
+    }
+
+    .headerPrincipal-nav-mail {
+        font-size: 0.8em;
+    }
+
+    .perfil .container {
+        width: 100%;
+        margin-left: 2%;
+    }
+
+    .perfil-title {
+        font-size: 1.3em;
+        line-height: 1.2em;
+        width: 60%;
+    }
+
+    .perfil-descripcion {
+        font-size: 0.9em;
+        width: 60%;
+    }
+
+    .perfil-item {
+        justify-content: right;
+        font-size: 0.8em;
+        padding: 0.3em;
+    }
+
+    .sobreMi-text{
+        font-size: 0.9em;
+        width: 100%;
+    }
+
+    .skills-content, .hobbies-content {
+        height: auto;
+    }
+
+    .skills-items, .hobbies-items {
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-template-rows: repeat(2,1fr);
+        width: 14em;
+        justify-content: center;
+    }
+    
+    .formacion-items-img {
+        width: 14em;
+    }
+
+    .formacion-items-title {
+        font-size: 0.7em;
+    }
+
+    .formacion-items-sub {
+        font-size: 0.6em;
+    }
+    
+    .experienciaLaboral .container {
+        flex-direction: column;
+    }
+
+    .experiencia-content {
+        display: block;
+        width: 100%;
+    }
+
+    .experiencia-img {
+        width: 100%;
+    }
+
+    .experiencia-title {
+        font-size: 1em;
+    }
+
+    .experiencia-subtitle {
+        font-size: 0.9em;
+    }
+
+
+    .contacto-img {
+        display: none;
+    }
+
+    .contacto-form {
+        width: 100%;
+    }
+
+    label, input {
+        align-items: center;
+        margin: 0;
+    }
+
+    .input-mensaje {
+        justify-content: center;
+    }
+}
+
+@media (max-width:360px) {    
+    
+    .perfil .container {
+        flex-direction: column;
+    }
+
+    .perfil-title, .perfil-descripcion {
+        width: 100%;
+    }
+
+    .perfil-descripcion {
+        font-size: 0.9em;
+    }
+
+    .sobreMi {
+        width: auto;
+    }
+
+    .skills-items, .hobbies-items {
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(2,1fr);
+        width: 9.5em;
+        justify-content: center;
+    }
+    
+    .formacion-content {
+        flex-direction: column;
+    }
+
+    label, input {
+        align-items: center;
+        width: auto;
+    }
+}
+
+

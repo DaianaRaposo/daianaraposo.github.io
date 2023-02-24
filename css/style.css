@@ -1,0 +1,278 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,400;0,800;1,600&display=swap');
+
+
+body {
+	background-color: #E7CEBF;
+	font-family: 'Raleway', sans-serif;
+}
+
+.container {
+	margin: 0.2em;
+}
+
+.headerPrincipal {
+	padding: 20px 0;
+	color: #444444;
+}
+
+.headerPrincipal-titulo {
+	font-weight: bold;
+	font-size: 1.4em;
+	margin-bottom: 20px;
+	color: #D65353;
+}
+
+.headerPrincipal-titulo a {
+	text-decoration: none;
+	font-size: 1.5em;
+	color: inherit;
+}
+
+.headerPrincipal-nav-link {
+	padding: 0.8em;
+	margin-bottom: 0.8em;
+	font-size: 1em;
+	text-decoration: none;
+	color: #D65353;
+	display: block;
+}
+
+/* PERFIL */
+
+.perfil .container {
+	margin-top: 2em;
+	margin-bottom: 1.5em;
+}
+
+.fotoPerfil {
+	width: 25%;
+	height: 25%;
+	border-radius: 50%;
+}
+
+.perfil-content {
+	padding: 1em;
+}
+
+.perfil-title {
+	font-size: 2.7em;
+	line-height: 1em;
+	padding: 0.5em 0;
+}
+
+.perfil-descripcion {
+	font-size: 1.3em;
+	line-height: 1.5em;
+}
+.perfil-list {
+	padding-top: 1.5em;
+}
+
+.perfil-item {
+	text-decoration: none;
+	padding-right: 3em;
+}
+
+/* SOBRE MI */
+
+.sobreMi {
+	background-color: #BBECE8;
+	padding: 1.5em;
+	color: black;	
+}
+
+.sobreMi-text{
+	width: 70%;
+	margin-top: 1em;
+	padding: 1em 0;
+	font-size: 1.2em;
+	line-height: 1.8em;
+}
+
+
+.sobreMi-title, .formacion-title {
+	color: #4F766F;
+}
+
+.sobreMi-title{
+	font-size: 1.5em;
+}
+
+.firma {
+	padding: 1em 0;
+}
+
+/* SKILLS AND HOBBIES */
+
+.hobbies .container {
+	padding-bottom: 0.5em;
+}
+
+.skills-title, .hobbies-title, .formacion-title, .experiencia-title-principal {
+	padding: 1em;
+	text-align: center;
+	font-weight: bold;
+	font-size: 2em;
+}
+
+.skills-title, .hobbies-title, .experiencia-title-principal {
+	color: #D65353;
+}
+
+.skills-items-link, .hobbies-items-link {
+	padding: 0.5em;
+}
+
+/* FORMACION ACADEMICA */
+
+.formacionAcademica {
+	background-color: #BBECE8;
+	text-align: center;
+}
+
+.formacionAcademica .container {
+	padding: 0.5em;
+}
+
+.formacion-items {
+	padding: 0.3em;
+	text-decoration: none;
+	color: inherit;
+}
+
+.formacion-items-title {
+	padding: 0.3em;
+	font-size: 1.2em;
+}
+
+.formacion-items-sub {
+	padding: 0.3em;
+	font-size: 1em;
+}
+
+.formacion-items:hover {
+	transform:scale(1.1);
+}
+
+h6, h3 {
+	font-weight: bold;
+}
+
+/* Experiencia Profesional */
+
+
+.experiencia-img {
+	width: 65%;
+	opacity: 0.3;
+}
+
+.experiencia-img:hover{
+	opacity: inherit;
+}
+
+.experiencia-content {
+	width: 25%;
+	padding: 2em;
+}
+
+.experiencia-title {
+	font-size: 1.2em;
+	line-height: 1.2em;
+}
+
+.experiencia-subtitle {
+	padding-top: 1em;
+}
+
+.experiencia-botones {
+	display: block;
+	padding-top: 0.5em;
+}
+
+.experiencia-button-repositorio {
+	text-align: center;
+	background: #FFFFFF;
+	border: 0.1em solid #D65353;
+	color: #D65353;
+	width: 6.5em;
+	height: 3.2em;
+	font-size: 1em;
+}
+
+.experiencia-button-repositorio:hover {
+	background-color: lightcoral;
+	color: #FFFFFF;
+} 
+
+.experiencia-button-ver {
+	background: #D65353;
+	color: #FFFFFF;
+	border: 0.1em solid #FFFFFF;
+	width: 6.5em;
+	height: 3.2em;
+	font-size: 1em;
+}
+
+.experiencia-button-ver:hover {
+	background-color: #FFFFFF;
+	color: lightcoral;
+}
+
+/* Contacto */
+
+.contacto .container {
+	background-color: #BBECE8;
+	padding: 5%;
+	text-align: left;
+}
+
+.contacto-form{
+	margin: 2%;
+}
+
+.contacto-texto {
+	padding-top: 1em;
+	line-height: 1.5em;
+}
+
+.contacto-img {
+	width: 35%;
+	border-radius: 5em;
+	border: 0.2em solid #888888;
+}
+
+
+.contacto-title {
+	font-size: 2em;
+	font-weight: bold;
+}
+
+.input-contacto {
+	width: 90%;
+	height: 2.5em;
+}
+
+.input-mensaje {
+	width: 90%;
+	height: 18em;
+}
+
+label {
+	padding-top: 1em;
+	padding-bottom: 0.7em;
+}
+
+.input-enviar {
+	margin-top: 1em;
+	background: #D65353;
+	color: #FFFFFF;
+	border: 0.1em solid #FFFFFF;
+	width: 9em;
+	height: 3em;
+	font-size: 1em;
+}
+
+.footer1, .footer2 {
+	text-align: center;
+	padding-top: 1em;
+}
